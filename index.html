@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Technocracy Secure Access Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts for Professional Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <div id="login-screen" class="screen">
+        <div class="content">
+            <h1>Technocracy Secure Access Portal</h1>
+            <form id="login-form">
+                <input type="text" id="username" placeholder="Agent ID" required>
+                <input type="password" id="password" placeholder="Access Code" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="profile-screen" class="screen">
+        <div class="document dark-mode">
+            <header>
+                <img src="technocracy_logo.png" alt="Technocracy Logo">
+                <h2>Confidential Report</h2>
+                <p>Technocracy Intelligence Division</p>
+                <p>Date: June 4th, 20XX</p>
+            </header>
+            <section>
+                <h3>Subject Profile: Aemilian Lecarn</h3>
+                <p><strong>Name:</strong> Aemilian Lecarn</p>
+                <p><strong>Classification:</strong> Threat Level <s>Charlie</s> Alpha </p>
+                <p><strong>Abilities:</strong> Sophisticated methodologies for covert neutralization, emphasizing advanced stealth strategies and undetectable operational execution.</p>
+                <p><strong>Reality Deviance:</strong> <s>None</s> Spatial Manipulation, Temporal Distortion</p>
+                <p><strong>Status:</strong> <s>Captured</s> Unknown</p>
+            </section>
+            <footer>
+                <p>Authorized Personnel Only</p>
+                <p>Technocracy Secure Network</p>
+            </footer>
+            <a href="#" id="incident-report-link" class="button">View Incident Report</a>
+        </div>
+    </div>
+
+    <div id="incident-report-screen" class="screen">
+        <div class="document dark-mode">
+            <header>
+                <img src="technocracy_logo.png" alt="Technocracy Logo">
+                <h2>Incident Report: 864GV1X</h2>
+                <p>Technocracy Intelligence Division</p>
+                <p>Date: October 15th, 20XX</p>
+            </header>
+            <section>
+                <h3>Summary</h3>
+                <p><strong>Date:</strong> October 15, 2023</p>
+                <p><strong>Location:</strong> REDACTED</p>
+                <p><strong>Details:</strong> Subject 04532YA unexpectedly manifested anomalous abilities (known as "reality deviance") and utilized unorthodox methods to breach facility security, employing advanced assassination techniques. Casualties reported: 5 personnel killed in action (KIA), 10 wounded in action (WIA)..</p>
+            </section>
+            <footer>
+                <p>End of Report</p>
+                <p>Technocracy Secure Network</p>
+            </footer>
+            <a href="#" id="logout-link" class="button">Logout</a>
+        </div>
+    </div>
+
+    <!-- Include Particle.js for Interactive Background -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <!-- Link to JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
